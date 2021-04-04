@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Google-noGeo",
+  "description": "Google検索の下にある位置情報表示とバイバイ👋",
+  "version": "1.0",
+  "permissions":["https://www.google.com/search?*"],
+  "content_scripts": [
+    {
+      "matches": [
+          "https://www.google.com/search?*"
+      ],
+      "js": [ "main.js" ]
+    }
+  ],
+  "icons": {
+    "16": "16x16.png",
+    "48": "48x48.png",
+    "128": "128x128.png"
+  }
+}
