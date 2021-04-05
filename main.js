@@ -1,6 +1,12 @@
 window.onload = function(){
-    let div = document.getElementsByClassName('fbar b2hzT')
-    if(div){
+    //検索の下
+    //let div = document.getElementsByClassName('fbar b2hzT')
+    if(div = document.getElementsByClassName('fbar b2hzT')) {
+        div[0].style.display ="none"
+    }
+    //地図
+    //let div = document.getElementsByClassName('ULSxyf')
+    if(div = document.getElementsByClassName('ULSxyf')){
         div[0].style.display ="none"
     }
 }
