@@ -6,7 +6,7 @@ window.onload = function(){
     }
     //地図
     //let div = document.getElementsByClassName('ULSxyf')
-    if(div = document.getElementsByClassName('ULSxyf')){
+    if(div = document.getElementsByClassName('xERobd')){
         div[0].style.display ="none"
     }
 }
