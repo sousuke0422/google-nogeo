@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Google-noGeo",
   "description": "Google検索の下にある位置情報表示とバイバイ👋",
-  "version": "1.0",
+  "version": "1.1",
   "permissions":["https://www.google.com/search?*"],
   "content_scripts": [
     {
